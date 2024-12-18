@@ -1,0 +1,84 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link rel="stylesheet" type="text/css" href="style/css.css">
+<style type="text/css">
+body,td,th {
+	font-family: "仿宋";
+	font-weight: bolder;
+}
+</style>
+<script language="javascript" type="text/javascript" src="js/jquery1.4.min.js"></script>
+<script language="javascript" type="text/javascript" src="js/jquery.jslider.js"></script>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <p style="font-weight: bolder; font-size: 18px;"><a href="#">设为首页</a> | <a href="#">加为收藏</a></p>
+  </div>
+ 
+  <div class="menu">
+    <div class="nav">
+      <ul>
+        <li class="li_hover"><a href="伊犁.html">伊犁&nbsp;</a></li>
+        <li><a href="gentuan.html">攻略&nbsp;</a></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li><a href="伊犁注意.html">注意</a></li>
+        <li><a href="../index/分工页面.html">返回首页</a></li>
+      </ul>
+      <div class="clear"></div>
+    </div>
+  </div>
+  
+  <div class="banner">
+    <ul id="naviSlider">
+      <li sindex="1" class="on"></li>
+      <li sindex="2" ></li>
+      <li sindex="3" ></li>
+    </ul>
+    <ul id="slider">
+      <li id="myicloud"><a href="#" style="background:url(images/banner1.jpg) center/cover no-repeat ;"></a></li>
+      <li><a href="#" style="background:url(images/banner2.jpg) center/cover  no-repeat;"></a></li>
+      <li><a href="#" style="background:url(images/banner3.jpg) center/cover no-repeat;"></a></li>
+    </ul>
+    <script type="text/javascript">
+    $(document).ready(function(){
+    	$("#slider").jSlider({
+    		pause:5000,
+    		naviSlider:'naviSlider'
+    	});
+    })
+    </script>
+  </div>
+  
+  <div class="main">
+
+    <div class="mainr right news">
+    <h3 class="tit">注意</h3>
+    <div class="pad20 hj wt1">
+      <div style="text-indent:2em;">1. 气候多变，带保暖衣物和雨具。</div>
+      <div style="text-indent:2em;">必备</div>
+      <div style="text-indent:2em;">2. 紫外线强，备防晒霜和墨镜。</div>
+      <div style="text-indent:2em;">证件：身份证.驾驶证.学生证等</div>
+      <div style="text-indent:2em;">3. 饮食多牛羊肉，带肠胃yao</div>
+      <div style="text-indent:2em;">个人用品：防晒霜.保湿护肤品.日常洗漱用品</div>
+      <div style="text-indent:2em;">4. 交通不太便利，提前规划。</div>
+      <div style="text-indent:2em;">服装：大衣.厚外套.针织衫.毛衣.打底衫.休闲裤.平底鞋.运动鞋</div>
+      <br clear="both">
+      <br>
+      <br>
+      <img src="tp/微信图片_202412131343282.jpg" alt="" width="300">
+      <p>伊犁位于中国新疆维吾尔自治区，是一个风景如画的地方。这里有着壮丽的自然风光，包括广阔的草原、巍峨的雪山和清澈的湖泊。伊犁不仅自然景观丰富，还拥有丰富的文化遗产和多样的民族风情，是一个旅游胜地。 </p>
+</div>
+</div>
+    <div class="clear"></div>
+  </div>
+  
+<div class="footer"> </div>
+</div>
+</body>
+</html>

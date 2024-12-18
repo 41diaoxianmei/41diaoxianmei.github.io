@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link rel="stylesheet" type="text/css" href="style/css.css">
+<script language="javascript" type="text/javascript" src="js/jquery1.4.min.js"></script>
+<script language="javascript" type="text/javascript" src="js/jquery.jslider.js"></script>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <p><a href="#">设为首页</a> | <a href="#">加为收藏</a></p>
+  </div>
+  
+  <div class="menu">
+    <div class="nav">
+      <ul>
+        <li class="li_hover"><a href="伊犁.html">伊犁&nbsp;</a></li>
+        <li><a href="gentuan.html">攻略&nbsp;</a></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li><a href="伊犁注意.html">注意</a></li>
+        <li><a href="../index/分工页面.html">返回首页</a></li>
+      
+      </ul>
+      <div class="clear"></div>
+    </div>
+  </div>
+
+  <div class="banner">
+    <ul id="naviSlider">
+      <li sindex="1" class="on"></li>
+      <li sindex="2" ></li>
+      <li sindex="3" ></li>
+    </ul>
+    <ul id="slider">
+      <li id="myicloud"><a href="#" style="background:url(images/banner1.jpg) center/cover no-repeat ;"></a></li>
+      <li><a href="#" style="background:url(images/banner2.jpg) center/cover  no-repeat;"></a></li>
+      <li><a href="#" style="background:url(images/banner3.jpg) center/cover no-repeat;"></a></li>
+    </ul>
+    <script type="text/javascript">
+    $(document).ready(function(){
+    	$("#slider").jSlider({
+    		pause:5000,
+    		naviSlider:'naviSlider'
+    	});
+    })
+    </script>
+  </div>
+ 
+  <div class="main">
+    <div class="mainl left">
+     <div class="cpfl">
+     <h2 class="tit">热门旅游线路</h2>
+     <div class="flcon">
+      <ul>
+       <li><a href="">直飞或转机至伊宁机场</a></li>
+       <li><a href="">🚞也可到伊宁站。</a></li>
+       <li><a href="">交通不太便利，提前规划
+       </a></li>
+
+      </ul>
+     </div>
+     </div>
+     
+    </div>
+    <div class="mainr right">
+    <h3 class="tit">跟团游</h3>
+    <div class="gt">
+      <ul>
+          <li>
+            <img src="tp/微信图片_20241213133150.jpg" alt="" />
+            <p>蓝天白云、花海。�</p>
+          </li>
+          <li>
+            <img src="tp/微信图片_20241213133215.jpg" alt="" />
+            <p>✈️可直飞或转机至伊宁机场</p>
+          </li>
+          <li>
+            <img src="tp/微信图片_20241213133216.jpg" alt="" />
+            <p>喀赞其民俗村</p>
+          </li>
+          <li>
+            <img src="tp/微信图片_20241213134309.jpg" alt="" />
+            <p>巴音布鲁克草原</p>
+          </li>
+          <li>
+            <img src="tp/微信图片_20241213134327.jpg" alt="" />
+            <p>果子沟大桥</p>
+          </li>
+          <li>
+            <img src="tp/微信图片_20241213134328.jpg" alt="" />
+            <p>那拉提草原</p>
+          </li>
+
+      </ul>
+    </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+  
+ <div class="footer"> </div>
+</div>
+</body>
+</html>
